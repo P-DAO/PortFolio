@@ -1,12 +1,210 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Mon PortFolio BTS SIO</title>
-    <meta name="description" content="Ceci un est portfolio étudiant de BTS SIO SLAM de 2021 (PROMO COVID!) ">
-    <title>Appli GSB Frais</title>
-</head>
-<body>
-    
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Mon PortFolio BTS SIO</title>
+        <meta name="description" content="Ceci un est portfolio étudiant de BTS SIO SLAM de 2021 (PROMO COVID!) ">
+        <link rel="stylesheet" href="css/styleAccueil.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    </head>
+
+    <body>
+        <header>
+            <!-- barre de navigation-->
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                <a class="navbar-brand" href="index.html">Perrine DAO</a>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#projet">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#veille">Veille</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+<br>
+        <!-- section contexte + compétences-->
+        <section class="container">
+            <div class="container p-3 my-3 bg-secondary text-white text-center">
+                <h2>Projet Appli-Frais</h2>
+                <h6><em>Application d'enregistrement des frais engagés et de suivi des remboursements</em></h6>
+            </div> 
+            <article class="jumbotron">
+                <h4>Contexte:</h4>
+                <p>L’application MVC « maison » du laboratoire GSB doit être migrée vers Symfony4 avec Doctrine. Elle est
+                    constituée d’une partie pour les Visiteurs médicaux « GSB-GestionVisiteurs ». Cette partie gère les
+                    enregistrement des dépenses et la consultation, la modification et/ou la suppression des frais des visiteurs.</p>
+                    <p>La gestion des frais de déplacement des Visiteurs médicaux, du laboratoire GSB, demande un suivi très
+                    précis des dépenses sans pour autant limiter les Visiteurs lors de leur déplacements, à des hôtels de
+                    second ordre ou des repas restreins. Un montant forfaitaire des dépenses pour chaque type de frais
+                    standard (repas midi, relais étape, nuitée et kilométrage) a été mis en place. Les remboursements des frais
+                    des Visiteurs se fait tous les mois. La fiche de frais est identifiée par le numéro du visiteur et le mois de
+                    l’année.</p>
+                    <p>L’application Web respectera l’architecture MVC du Framework Symfony4 et donc développée en PHP. Le
+                    requête passeront par l’Entity Manager, donc par le langage DSQL (Doctrine). L’affichage pour le
+                    développement des vues sera en langage Twig.</p>
+                    <p>L’application est constituée de deux modules, dont le module de Visiteurs qui permet l’enregistrement et le
+                    suivi des frais.</p>
+            </article>
+            <article class="jumbotron">
+                <h4>Environnement technologique:</h4>
+                <h6>Environnement:</h6>
+                <ul>
+                    <li>L'application a été développée dans un environnement Linux</li>
+                    <li>L'application web a été développée avec le Framework Symfony4 en php7</li>
+                </ul>
+                <h6>Langages utilisés:</h6>
+                <ul>
+                    <li>HTML</li>
+                    <li>Twig</li>
+                    <li>CSS</li>
+                    <li>php7</li>
+                    <li>DSQL</li>
+                    <li>SQL</li>
+                </ul>
+                <h6>Outils:</h6>
+                <ul>
+                    <li>Architecture: MVC</li>
+                    <li>Doctrine</li>
+                    <li>Composer</li>
+                    <li>Apache</li>
+                    <li>Git</li>
+                </ul>
+            </article>
+            <article class="jumbotron">
+                <h4>Compétences:</h4>
+                <ul>
+                    <li>A1.1.1 Analyse du cahier des charges d'un service à produire</li>
+                    <li>A1.2.4 Détermination des tests nécessaires à la validation</li>
+                    <li>A1.2.5 Définition des niveaux d'habilitation</li>
+                    <li>A1.4.1 Participation à un projet</li>
+                    <li>A1.4.3 Gestion des ressources</li>
+                    <li>A2.3.1 Identification, qualification et évaluation d'un problème</li>
+                    <li>4.1.2 Conception ou adaptation de l'interface utilisateur</li>
+                    <li>A4.1.4 Définition des caractéristiques d'une solution applicative</li>
+                    <li>A4.1.7 Développement, utilisation ou adaptation de composants</li>
+                    <li>A5.1.3 Suivi d'une configuration et de ses éléments</li>
+                    <li>A5.2.1 Exploitation des référentiels, normes et standards</li>
+                    <li>A5.2.2 Veille technologique</li>
+                    <li>A5.2.3 Repérage des compléments de formation</li>
+                    <li>A5.2.4 Étude d‘une technologie, d'un composant, d'un outil</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- section illustrations du projet -->
+        <section class="container">
+            <article class="jumbotron">
+                <div class="container p-3 my-3 bg-secondary text-white text-center">
+                    <h6>Acceuil </h6>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">    
+                        <img src="img/projets/symfony/accueil.png" alt="accueil" class="img-fluid">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-6">    
+                        <img src="img/projets/symfony/accueil comtable.png" alt="accueilComptable" class="img-fluid">
+                    </div>
+                    <div class="col-6">
+                        <img src="img/projets/symfony/accueil VIsiteur.png" alt="accueilVisiteur" class="img-fluid">
+                    </div>
+                </div>
+                <br>
+                <div class="text-center">
+                    <p>L'accueil général suivi des accueil pou le comptable et le visiteur.</p>
+                </div>
+            </article>
+
+            <article class="jumbotron">
+                <div class="container p-3 my-3 bg-secondary text-white text-center">
+                    <h6>Authentification</h6>
+                </div>
+                <div>
+                    <img src="img/projets/symfony/connexion.png" alt="authentificationVisiteur" class="img-fluid">
+                </div>
+                <br>
+                <div class="text-center">
+                    <p>Vue de la connexion du Visiteur</p>
+                </div>
+            </article>
+
+            <article class="jumbotron">
+                <div class="container p-3 my-3 bg-secondary text-white text-center">
+                    <h6>Consultation des frais</h6>
+                </div>
+                <div>
+                    <img src="img/projets/symfony/Consulter.PNG" alt="ConsulterFrais" class="img-fluid">
+                </div>
+                <br>
+                <div class="text-center">
+                    <p>Consultation des frais du visiteur avec la liste des fiches frais, soit par la recherche d'une fiche frais précise,
+                        soit une recherche qui affiche toutes lifiches de la plus ancienne à la plus récente. </p>
+                </div>
+            </article>
+
+            <article class="jumbotron">
+                <div class="container p-3 my-3 bg-secondary text-white text-center">
+                    <h6>Gestionnare de mot de passe</h6>
+                </div>
+                <div>
+                    <img src="img/projets/symfony/mdp.png" alt="mdp" class="img-fluid">
+                </div>
+                <br>
+                <div class="text-center">
+                    <p>L'utilisateur peut changer son mot de passe.</p>
+                </div>
+            </article>
+
+            <article class="jumbotron">
+                <div class="container p-3 my-3 bg-secondary text-white text-center">
+                    <h6>Gestionnaire des information du visiteur</h6>
+                </div>
+                <div>
+                    <img src="img/projets/symfony/donnees.png" alt="donneesVisiteur" class="img-fluid">
+                </div>
+                <br>
+                <div class="text-center">
+                    <p>L'utilisateur peut changer les paramètres de profil (adresse).</p>
+                </div>
+            </article>
+
+            <article class="jumbotron">
+                <div class="container p-3 my-3 bg-secondary text-white text-center">
+                    <h6>Gestionnaire des information du visiteur</h6>
+                </div>
+                <div>
+                    <img src="img/projets/symfony/deconnexion.png" alt="deconnexion" class="img-fluid">
+                </div>
+                <br>
+                <div class="text-center">
+                    <p>L'utilisateur peut se déconnecter.</p>
+                </div>
+            </article>
+        </section>
+
+        <footer class="text-center">
+            <p>&copy;Perrine DAO - 2021 </p>
+        </footer>
+    </body>
 </html>

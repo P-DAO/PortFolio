@@ -1,34 +1,224 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Mon PortFolio BTS SIO</title>
-    <meta name="description" content="Ceci un est portfolio étudiant de BTS SIO SLAM de 2021 (PROMO COVID!) ">
-    <title>Projet Appli Mission Locale</title>
-</head>
-<body>
-    <section>
-        <article>
-            <h2>Contexte:</h2>
-            <p></p>
-        </article>
-        <article>
-            <h2>Environnement technologique:</h2>
-            <p></p>
-        </article>
-        <article>
-            <h2>Application:</h2>
-            <h4>Fonctionnalités:</h4>
-            <h5>Visiteur Médical:</h5>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </article>
-        <aside>
-            <p>Photos de l'applications</p>
-        </aside>
-    </section>
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Mon PortFolio BTS SIO</title>
+        <meta name="description" content="Ceci un est portfolio étudiant de BTS SIO SLAM de 2021 (PROMO COVID!) ">
+        <link rel="stylesheet" href="css/styleAccueil.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    </head>
+
+    <body>
+        <header>
+            <!-- barre de navigation-->
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                <a class="navbar-brand" href="index.html">Perrine DAO</a>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#projet">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#veille">Veille</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <br>
+        <!-- section contexte + compétences-->
+        <section class="container">
+            <div class="container p-3 my-3 bg-secondary text-white text-center">
+                <h2>Application de gestion des Jeunes - Mission Locale</h2>
+            </div> 
+            <article class="jumbotron">
+                <h4>Contexte:</h4>
+                <p>L’ARS Ile de France a fait réaliser par Itinere Conseil, suite à un appel d’offre, une étude visant à établir un état des lieux des actions menées au sein des Missions Locales (ML) avec l’appui de l’ARS. 
+                    Afin de contribuer au renforcement de l’intervention des psychologues au sein de ces ML, il a été proposé parmi les dix conclusions de l’étude, de mettre en place en collaboration avec les ML  un recueil informatisé de données relatives à l’activité des psychologues. Ce système d’information apportera aux différents acteurs, psychologues, directeurs et directrices des ML, ensemble des équipes, ARML, Direccte et ARS une meilleure compréhension de l’action des psychologues et  de leur place au sein des équipes ainsi qu’une meilleure connaissance des jeunes suivis par les psychologues.
+                    Ce document est un cahier des charges s’appuyant sur les conclusions de l’étude menée par Itinere Conseil puis du travail de concertation avec les ML, décrivant les utilisateurs, les fonctions souhaitées, les variables recueillies, les indicateurs créés et la fréquence de création, les mesures de protection des données.
+                     </p>
+            </article>
+            <article class="jumbotron">
+                <h4>Environnement technologique:</h4>
+                <h6>Environnement:</h6>
+                <ul>
+                    <li>L'application a été développée sur Virtual Studio sur une machine virtuelle Linux Ubuntu</li>
+                </ul>
+                <h6>Langages utilisés:</h6>
+                <ul>
+                    <li>php7</li>
+                    <li>twig</li>
+                    <li>SQL</li>
+                </ul>
+                <h6>Outils:</h6>
+                <ul>
+                    <li>GitLab</li>
+                    <li>Architecture: MVC</li>
+                    <li>composer</li>
+                    <li>DBeaver</li>
+                </ul>
+            </article>
+            <article class="jumbotron">
+                <h4>Compétences:</h4>
+                <ul>
+                    <li>A1.1.1 Analyse du cahier des charges d'un service à produire</li>
+                    <li>A1.2.3 Évaluation des risques liés à l'utilisation d'un service</li>
+                    <li>A1.2.4 Détermination des tests nécessaires à la validation</li>
+                    <li>A1.2.5 Définition des niveaux d'habilitation</li>
+                    <li>A1.3.3 Accompagnement de la mise en place d'un nouveau service</li>
+                    <li>A1.4.1 Participation à un projet</li>
+                    <li>A1.4.2 Évaluation des indicateurs de suivi d'un projet</li>
+                    <li>A1.4.3 Gestion des ressources</li>
+                    <li>A2.1.1 Accompagnement des utilisateurs dans la prise en main</li>
+                    <li>A4.1.1 Proposition d'une solution applicative</li>
+                    <li>A4.1.2 Conception ou adaptation de l'interface utilisateur</li>
+                    <li>A4.1.3 Conception ou adaptation d'une base de données</li>
+                    <li>A4.1.4 Définition des caractéristiques d'une solution applicative</li>
+                    <li>A4.1.5 Prototypage de composants logiciels</li>
+                    <li>A4.1.7 Développement, utilisation ou adaptation de composants</li>
+                    <li>A4.1.8 Réalisation des tests nécessaires à la validation</li>
+                    <li>A4.1.9 Rédaction d'une documentation technique</li>
+                    <li>A4.1.10 Rédaction d'une documentation d'utilisation</li>
+                    <li>A5.1.3 Suivi d'une configuration et de ses éléments</li>
+                    <li>A5.2.3 Repérage des compléments de formation</li>
+                    <li>A5.2.4 Étude d‘une technologie, d'un composant, d'un outil</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- section illustrations du projet -->
+        <section class="container">
+            <article class="jumbotron">
+                <div class="container p-3 my-3 bg-secondary text-white text-center">
+                    <h6>Accueil</h6>
+                </div>
+                <div>
+                    <img src="img/projets/missionLocale/acceuil/accueil.PNG" alt="accueil" class="img-fluid">
+                </div>
+            </article>
+
+            <article class="jumbotron">
+                <div class="container p-3 my-3 bg-secondary text-white text-center">
+                    <h6>Base de données sur DBeaver</h6>
+                </div>
+                <div>
+                    <img src="img/projets/missionLocale/BD/BD-mission_locale-DBeaver.PNG" alt="baseDeDonnees" class="img-fluid">
+                </div>
+                <br>
+                <div class="text-center">
+                    <p>Il m'a été demendée de créer la base de données de cette application. On peut voir les différentes tables créées pour la base de données.</p>
+                </div>
+                <br>
+                <div>
+                    <img src="img/projets/missionLocale/BD/routage-mission-locale.PNG" alt="routage" class="img-fluid">
+                </div>
+                <br>
+                <div class="text-center">
+                    <p>Voici une partie de la table de routage.</p>
+                </div>
+            </article>
+
+            <article class="jumbotron">
+                <div class="container p-3 my-3 bg-secondary text-white text-center">
+                    <h6>Jeune</h6>
+                </div>
+                <div>
+                    <img src="img/projets/missionLocale/jeune/recherche-jeune-liste-jeune-acceuil-a-la-connexion.PNG" alt="recherche" class="img-fluid">
+                </div>
+                <br>
+                <div class="center-text">
+                    <p>Sur cette page, il est possible de faire une recherche avec le numéro anonyme d'un Jeune. S'il existe la Fiche du Jeune 
+                        correspondant au numéro anonyme apparaîtra, sinon un nouvelle Fiche de Jeune sera créée. </p>
+                </div>
+                <br>
+                <div>
+                    <img src="img/projets/missionLocale/jeune/edit-fiche-jeune.PNG" alt="editer" class="img-fluid">
+                </div>
+                <br>
+                <div>
+                    <img src="img/projets/missionLocale/jeune/creer-nouveau-jeune-form.PNG" alt="creerFicheJeune" class="img-fluid">
+                </div>
+                <br>s
+                <div class="text-center">
+                    <p>La première image est le résulatat si le numéro anonyme existe déjà dans la base de données.</p>
+                    <p>La deuxième image est lerésultat si le numéro anonyme n'est pas dans la base de données.</p>
+                </div>
+            </article>
+
+            <article class="jumbotron">
+                <div class="container p-3 my-3 bg-secondary text-white text-center">
+                    <h6>RDV de Jeune</h6>
+                </div>
+                <div>
+                    <img src="img/projets/missionLocale/jeune/edit-onglet-rdv-jeune.PNG" alt="editerRDV" class="img-fluid">
+                </div>
+                <br>
+                <div>
+                    <img src="img/projets/missionLocale/jeune/form-creer-rdv-si-honore.PNG" alt="editer" class="img-fluid">
+                </div>
+                <br>
+                <div class="text-center">
+                    <p>Sur cette page, il est possible d'éditer des fiche de RDV. </p>
+                </div>
+                <br>
+                <div>
+                    <img src="img/projets/missionLocale/jeune/form-rdv-champ-multiple.PNG" alt="recherche" class="img-fluid">
+                </div>
+                <br>
+                <div>
+                    <img src="img/projets/missionLocale/jeune/form-creer-rdv.PNG" alt="recherche" class="img-fluid">
+                </div>
+                <br>
+                <div class="text-center">
+                    <p>Création d'une nouvelle fiche de RDV.</p>
+                </div>
+            </article>
+
+            <article class="jumbotron">
+                <div class="container p-3 my-3 bg-secondary text-white text-center">
+                    <h6>Travail Annexe</h6>
+                </div>
+                    <div>
+                    <img src="img/projets/missionLocale/travail-annexe/form-creer-travail-annexe-liste.PNG" alt="creer" class="img-fluid">
+                    </div>
+                    <br>
+                    <div>
+                        <img src="img/projets/missionLocale/travail-annexe/edit-travail-annexe.PNG" alt="edit" class="img-fluid">
+                    </div>
+                    <br>
+                    <div>
+                        <img src="img/projets/missionLocale/travail-annexe/supprimer-travail-annexe.PNG" alt="supp" class="img-fluid">
+                    </div>
+                    <br>
+                    <div>
+                        <img src="img/projets/missionLocale/travail-annexe/reponse-travail-annexe.PNG" alt="reponse" class="img-fluid">
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <p>Seul les psychologues ont accès à cet onglet.</p>
+                        <p>Il leur permet de suivre le travail réalisé à côté des Jeunes qu'elles aident.</p>
+                        <p>Ici les spychologues peuvent créer, modifier et supprimer un travail.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <footer class="text-center">
+            <p>&copy;Perrine DAO - 2021 </p>
+        </footer>
+    </body>
 </html>

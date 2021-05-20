@@ -41,33 +41,35 @@
 <br>
     <section class="container">
         <div class="container p-3 my-3 bg-secondary text-white text-center">
-            <h2>TP-OcsInventory</h2>
-        </div>
+            <h2>TP-Amortissement</h2>
+        </div>  
         <article class="jumbotron">
-            <h4>Contexte</h4>
-            <p>Utilisation d'OCS pour collecter les informations de la gestion des configurations.</p>
-        </article>
-        <hr>
-        <article class="jumbotron">
-            <h4>Environnement matériel et logistique</h4>
-            <p>Constitution d'un environnement composés de 3 ou 4 machines virtuelles:
+            <p>Les actifs immobilisés qui se déprécient avec l'usage et le temps sont des immobilisations amortissables.</p>
+            <p>Un actif amortissable est un actif dont l'utilisation par l'entreprise est déterminable. l'utilisation d'un actif est déterminable lors de l'usage attendu de l'actif par l'entité est limité dans le temps du fait:
                 <ul>
-                    <li>une machine Linux Debian 10 pour le serveur OCS Inventory</li>
-                    <li>des machines clientes sous Linux, Windows XP et Windows 7 ou 8 </li>
+                    <li>de l'usure physique de l'actif par l'usage qu'en fait l'entreprise ou par le passage du temps.</li>
+                    <li>de l'évolution technique: obsolescence rendant l'utilisation inférieure à celle qui découlerait de sa seule usure physique.</li>
+                    <li>de règles juridique: durée de protection légale ou contractuelle.</li>
                 </ul>
             </p>
+            <p>L'amortissement est la représentation comptable d'un amortisseement de la valeur d'une immobilisation résultant d'une cause irréversible tel que le temps, l'usage ou le changemen technique.</p>
+            <p>Voici un fichier PDF qui permet de réaliser un tableau d'amortissement linéaire ou dégressif.</p>
+            <div class="text-center">
+                <iframe src="pdf/TP-Amortissement.pdf" height="1100" width="800"></iframe>
+            </div>
         </article>
         <hr>
         <article class="jumbotron">
-            <h4>Compte rendu du TP</h4>
+            <h4 class="text-center">Tableau d'amortissement</h4>
             <br>
-            <div class="text-center">
-                <iframe src="pdf/OCSInventory.pdf" frameborder="0" height="1100" width="800"></iframe>
-            </div>
+            <p>La feuille 1 excel permet un calcul d'amortissement linaire en tenant compte que de l'année d'acquisition.</p>
+            <p>La feuille 2 excel permet un calcul d'amortissement linaire poratas temporis, ce qui veut dire qu'il prend en compte la date de mise en service du bien</p>
+            <p>La feuille 3 excel permet un calcul d'amortissement dégressif. Cet amortissement permet d'amortir une grande partie de l'acquisition les premières années d'amortissement contrairement à l'amortissement linéaire où le même montant sera amortie chaque année.</p>
+            <iframe src="https://onedrive.live.com/embed?cid=6AB3FB650F324E9E&resid=6AB3FB650F324E9E%2111471&authkey=ALm5xEAT8vcbS0Y&em=2" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
         </article>
     </section>
-
-    <footer class=" bg-secondary text-white text-center">
+    <br>
+    <footer class="container-fluid bg-secondary text-white text-center">
         <p>&copy;Perrine DAO - 2021 </p>
     </footer>
 </body>

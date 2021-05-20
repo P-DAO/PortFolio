@@ -1,0 +1,19 @@
+.fondAccueil {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #08112f, #003e83);
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .container img {vertical-align: middle;}
+  
+  .fondAccueil .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }

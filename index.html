@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Mon PortFolio BTS SIO</title>
     <meta name="description" content="Ceci un est portfolio étudiant de BTS SIO SLAM de 2021 (PROMO COVID!) ">
+    <link rel="stylesheet" href="css/styleAccueil.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -27,7 +28,6 @@
         <!-- barre de navigation-->
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <a class="navbar-brand" href="#home">Perrine DAO</a>
-
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#projet">Projets</a>
@@ -35,93 +35,159 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#veille">Veille</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">C.V.</a>
-                </li>
             </ul>
         </nav>
     </header>
 
     <!-- fond de particule -->
     <div class="fondAccueil">
-        <div id="particles-js"></div>
-        <aside>
+        <div id="particles-js">
+            <script src="https://res.cloudinary.com/dxfq3iotg/raw/upload/v1561436720/particles.js"></script>
+            <script src="https://res.cloudinary.com/dxfq3iotg/raw/upload/v1561436735/app.js"></script>
+        </div>
+        <div class="content">
             <h1 class="text-white">PortFolio Étudiante BTS SIO </h1>
-        </aside>
-        <script src="https://res.cloudinary.com/dxfq3iotg/raw/upload/v1561436720/particles.js"></script>
-        <script src="https://res.cloudinary.com/dxfq3iotg/raw/upload/v1561436735/app.js"></script>
+            <h5>Perrine DAO</h5>
+            <h6 class="text-muted">Future Développeuse Fullstack</h6>
+            <br>
+            <p>Bienvenue sur mon site pour mes projets étudiant de BTS SIO SLAM</p>
+        </div>
     </div>
+    <br>
 
-    <!--section de paragraphes-->
-    <section id="projet">           
-            <h2><a href="projets.html">Mes projets</a></h2>
-    </section>
-    <section class="cards">
-        <article class="card">
-            <a href="resanet.html">
-                <figure>
-                    <img src="img/projets/resanet" alt="ResaNet">
-                </figure>
-            </a>
-        </article>
-        <article class="card">
-            <a href="gsbFrais.html">
-                <figure>
-                    <img src="" alt="gsbFrais">
-                </figure>
-            </a>
-        </article>
-        <article class="card">
-            <a href="gsbRV.html">
-                <figure>
-                    <img src="" alt="gsb-RV-DR">
-                </figure>
-            </a>
-        </article>
-        <article class="card">
-            <a href="gsbAndroid.html">
-                <figure>
-                    <img src="" alt="gsbVisiteurAndroid">
-                </figure>
-            </a>
-        </article>
-        <article class="card">
-            <a href="ocsInventory.html">
-                <figure>
-                    <img src="ocsInventory.html" alt="OCSInventory">
-                </figure>
-            </a>
-        </article>
-        <article class="card">
-            <a href="#home">
-                <figure>
-                    <img src="" alt="">
-                </figure>
-            </a>
-        </article>
-    </section>
-    <section id="Veille">
-        <article class="container-fluid bg-secondary text-white">
+    <!--section de projets-->
+    <section id="projet" > 
+        <br>
+        <div class="container p-3 my-3 bg-secondary text-white text-center">
+            <h2>Mes projets</h2>
+        </div> 
+        <article class="container">
             <div class="row">
-                <div class="col-md-8">
-                    <h2><a href="veille.html">Ma veille</a></h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid molestiae laudantium nostrum
-                        non facere.
-                        Totam facilis sint delectus accusantium ut provident rerum ea expedita aliquid odit! Sit
-                        molestiae inventore repellat!Lorem
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quae quis beatae,
-                        perferendis eum similique ab odit in repellat nihil asperiores voluptatibus repudiandae quaerat
-                        corporis dolore animi a deleniti nulla.</p>
-                    <iframe src="https://www.pearltrees.com/perrine_dao?embed=2&d=202103291917" width="853" height="604" style="border:0px;" allowtransparency="true"></iframe><span style="display:block; padding-top:2px; color:#818181; font-size:13px;"><a href="http://www.pearltrees.com/perrine_dao" style=" color:#818181; font-size:13px;" target="_blank">Perrine_dao</a></span>               
+                <div class="col-sm-6 col-lg-8">
+                    <img src="img/projets/resanet/resanet" alt="ResaNet" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-4">
+                    <h6>Application ResaNet (PPE)</h6>
+                    <p>Application web de restauration (Client Léger). L'application devait répondre à la fois au besoin des usagers mais aussi du gestionnaire. Nous avons travailler à partir de fichiers pré-existants.</p>
+                    <a href="resanet.html"><button type="button" class="btn btn-outline-secondary">Lire plus...</button></a>
+                </div>
+            </div>
+        </article>
+        <hr>
+        <article class="container">
+            <div class="row">
+                <div class="col-6 col-lg-4">
+                    <h6>Application GSB Frais Visiteur</h6>
+                    <p>Appllication réalisée à l'aide du framework Symfony4 avec l'architecture MVC. Cette application permet la gestion des frais des visiteurs pendant leur prospection chez les praticiens.</p>
+                    <a href="gsbFrais.html"><button type="button" class="btn btn-outline-secondary">Lire plus...</button></a>
+                </div>
+                <div class="col-sm-6 col-lg-8"><img src="img/projets/symfony/FraisVisiteur.jpg" alt="gsbFrais" class="img-fluid"></div>
+            </div>
+        </article>
+        <hr>
+        <article class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-8">
+                    <img src="img/projets/gsbRV-DR/Logo.jpg" alt="gsb-RV-DR"  class="img-fluid"> 
+                </div>
+                <div class="col-6 col-lg-4">
+                    <h6>Application GSB-RV </h6>
+                    <p>Appllication d'enregistrement et de suivi des rapports de visite. Java/Swing (Client lourd)</p>
+                    <a href="gsbRV.html"><button type="button" class="btn btn-outline-secondary">Lire plus...</button></a>
+                </div>
+            </div>
+        </article>
+        <hr>
+        <article class="container">
+            <div class="row">
+                <div class="col-6 col-lg-4">
+                    <h6>Application Gestion de suivi de Jeune</h6>
+                    <p>Application réalisé au cour de mon stage de 2e année de BTS. Cette application qui permet de suivre un jeune de son arrivée au départ d'une Mission Locale.</p>
+                    <a href="missionLocale.html"><button type="button" class="btn btn-outline-secondary">Lire plus...</button></a>
+                </div>
+                <div class="col-sm-6 col-lg-8">
+                    <img src="img/projets/missionLocale/jeune/creer-nouveau-jeune-form.PNG" alt="mission_locale" class="img-fluid">
+                </div>
+            </div>
+        </article>
+        <hr>
+        <article class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-8">
+                    <img src="pdf/OCSInventory.png" alt="OCSInventory" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-4">
+                    <h6>TP-OCS Inventory</h6>
+                    <p>Tp sur le gestion du parc informatique. Installation et configuration d'un outil d'inventaire.</p>
+                    <a href="ocsInventory.html"><button type="button" class="btn btn-outline-secondary">Lire plus...</button></a>
+                </div>
+            </div>
+        </article>
+        <hr>
+        <article class="container">
+            <div class="row">
+                <div class="col-4 col-lg-4">
+                    <h6>TP-Amortissement</h6>
+                    <p>Fichier Excel permettant de réaliser des amortissement linéaire ou dégressif en fonction 
+                        de la date d'acquisition, de la base d'amortissement et du nombre d'années de l'utilisation du bien.</p>
+                    <a href="amortissement.html"><button type="button" class="btn btn-outline-secondary">Lire plus...</button></a>
+                </div>
+                <div class="col-sm-6 col-lg-8">
+                    <img src="pdf/Amortissement.PNG" alt="tableauAmortissement" class="img-fluid">
                 </div>
             </div>
         </article>
     </section>
-    <footer>
-        <section>
-            <a href="https://1drv.ms/x/s!Ap5OMg9l-7Nq2U-iU1xFKashohQM?e=nYoLF8">amortissement</a>
-            <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-        </section>
+    <br>
+
+     <!--section de Veille tech-->
+    <section id="veille" class="container-fluid bg-secondary ">
+        <br>
+        <div class="container p-3 my-3 bg-white text-center">
+            <h2>Ma veille</h2>
+        </div> 
+        <article>
+            <div class="text-center">
+                <iframe src="https://www.pearltrees.com/perrine_dao?embed=2&d=202103291917" width="853" height="604" style="border:0px;" allowtransparency="true"></iframe><span style="display:block; padding-top:2px; color:#818181; font-size:13px;"><a href="http://www.pearltrees.com/perrine_dao" style=" color:#818181; font-size:13px;" target="_blank">Perrine_dao</a></span>               
+            </div>
+        </article>
+        <article class="container">
+            <div class="row">
+                <div class="col-6 col-sm-4">
+                    <a class="twitter-timeline" data-width="310" data-height="305" href="https://twitter.com/JavaScript?ref_src=twsrc%5Etfw">Tweets by JavaScript</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="col-6 col-sm-4">
+                    <a class="twitter-timeline" data-width="310" data-height="305" href="https://twitter.com/java?ref_src=twsrc%5Etfw">Tweets by java</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="col-6 col-sm-4">
+                    <a class="twitter-timeline" data-width="310" data-height="305" href="https://twitter.com/official_php?ref_src=twsrc%5Etfw">Tweets by official_php</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-6 col-sm-4">
+                    <a class="twitter-timeline" data-width="310" data-height="305" href="https://twitter.com/symfony?ref_src=twsrc%5Etfw">Tweets by symfony</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="col-6 col-sm-4">
+                    <a class="twitter-timeline" data-width="310" data-height="305" href="https://twitter.com/github?ref_src=twsrc%5Etfw">Tweets by github</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="col-6 col-sm-4">
+                    <a class="twitter-timeline" data-width="310" data-height="305" href="https://twitter.com/AndroidDev?ref_src=twsrc%5Etfw">Tweets by AndroidDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-6 col-sm-4"></div>
+                <div class="col-6 col-sm-4">
+                    <a class="twitter-timeline" data-width="310" data-height="305" href="https://twitter.com/ThePSF?ref_src=twsrc%5Etfw">Tweets by ThePSF</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!--footer -->
+    <footer class="text-center"> 
+            <p>&copy;Perrine DAO - 2021 </p>
     </footer>
 
 </body>
